@@ -11,8 +11,11 @@ function App() {
 
   return (
     <div>
+      <strong>Add a User</strong>
       <UserForm onUserAdd={onUserAdd} />
+
       <hr />
+      <strong>List of Users</strong>
       <UserList users={users} />
     </div>
   );
